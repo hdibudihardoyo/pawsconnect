@@ -19,7 +19,7 @@ const Hero = () => {
             </p>
             <div className="mt-10">
               <Link to="/adopsi">
-              <Button children ="Adopsi Kucing Sekarang" />
+              <Button children ="Adopsi" />
               </Link>
             </div>
           </div>

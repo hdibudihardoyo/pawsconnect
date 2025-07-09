@@ -3,12 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
+  "homepage": "https://hdibudihardoyo.github.io/pawsconnect"
+,
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy" : "gh-pages -d dist",
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+  "preview": "vite preview"
+},
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
     "@react-buddy/ide-toolbox": "^2.4.0",

@@ -6,7 +6,7 @@ const Puppies = () => {
   return (
     <>
       <div className="border-b-2 border-[#D9D9D9] shadow-inner bg-[#F8F8F8]">
-        <div className="flex flex-col items-center mx-auto mb-8 mt-20">
+        <div className="flex flex-col items-center mx-auto mb-8 mt-32">
           <section id="home-2" className={`${styles.section} text-center`}>
             <h2 className="text-primary text-xl font-bold font-Satoshi-Regular leading-snug mt-10">
               Bertemu dengan kucingmu
